@@ -1,0 +1,179 @@
+#include <iostream>
+#include <string>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+   
+    float numberBox;
+	float numberSideline;
+	float numberPremium;
+    float numberGenAd;
+
+
+	cout<<"GAME 1\n";
+
+	cout << endl;
+
+	cout << "Ticket price of Box = 250" << endl;
+	cout << "Number of Box tickets sold = ";
+	cin >> numberBox; 
+	cout << "Total Sales of Box Tickets = " << numberBox * 250 << endl;
+
+	cout << endl;
+
+	cout << "Ticket price of Sideline = 100" << endl;
+	cout << "Number of Sideline tickets sold = ";
+	cin >> numberSideline; 
+	cout << "Total Sales of Sideline Tickets = " << numberSideline * 100 << endl;
+
+	cout << endl;
+
+	cout << "Ticket price of Premium = 50" << endl;
+	cout << "Number of Premium tickets sold = ";
+	cin >> numberPremium; 
+	cout << "Total Sales of Premium Tickets = " << numberPremium * 50 << endl;
+
+	cout << endl;
+	
+	cout << "Ticket price of General Admission Tickets = 25" << endl;
+	cout << "Number of General Admission tickets sold = ";
+	cin >> numberGenAd; 
+	cout << "Total Sales of General Admission Tickets = " << numberGenAd * 25 << endl;
+
+	cout << endl;
+
+	cout << "Total Sales of Game 1 = " << (250 * numberBox) + (100 * numberSideline) + (50 * numberPremium) + (25 * numberGenAd) << endl;
+
+	float numberBox2;
+	float numberSideline2;
+	float numberPremium2;
+    float numberGenAd2;
+
+	cout << endl;
+
+	cout<<"GAME 2\n";
+
+	cout << endl;
+
+	cout << "Ticket price of Box = 250" << endl;
+	cout << "Number of Box tickets sold = ";
+	cin >> numberBox2; 
+	cout << "Total Sales of Box Tickets = " << numberBox2 * 250 << endl;
+
+	cout << endl;
+
+	cout << "Ticket price of Sideline = 100" << endl;
+	cout << "Number of Sideline tickets sold = ";
+	cin >> numberSideline2; 
+	cout << "Total Sales of Sideline Tickets = " << numberSideline2 * 100 << endl;
+
+	cout << endl;
+
+	cout << "Ticket price of Premium = 50" << endl;
+	cout << "Number of Premium tickets sold = ";
+	cin >> numberPremium2; 
+	cout << "Total Sales of Premium Tickets = " << numberPremium2 * 50 << endl;
+
+	cout << endl;
+	
+	cout << "Ticket price of General Admission Tickets = 25" << endl;
+	cout << "Number of General Admission tickets sold = ";
+	cin >> numberGenAd2; 
+	cout << "Total Sales of General Admission Tickets = " << numberGenAd2 * 25 << endl;
+
+	cout << endl;
+
+	cout << "Total Sales of Game 2 = " << (250 * numberBox2) + (100 * numberSideline2) + (50 * numberPremium2) + (25 * numberGenAd2) << endl;
+
+	float numberBox3;
+	float numberSideline3;
+	float numberPremium3;
+    float numberGenAd3;
+
+	cout << endl;
+
+	cout<<"GAME 3\n";
+
+	cout << endl;
+
+	cout << "Ticket price of Box = 250" << endl;
+	cout << "Number of Box tickets sold = ";
+	cin >> numberBox3; 
+	cout << "Total Sales of Box Tickets = " << numberBox3 * 250 << endl;
+
+	cout << endl;
+
+	cout << "Ticket price of Sideline = 100" << endl;
+	cout << "Number of Sideline tickets sold = ";
+	cin >> numberSideline3; 
+	cout << "Total Sales of Sideline Tickets = " << numberSideline3 * 100 << endl;
+
+	cout << endl;
+
+	cout << "Ticket price of Premium = 50" << endl;
+	cout << "Number of Premium tickets sold = ";
+	cin >> numberPremium3; 
+	cout << "Total Sales of Premium Tickets = " << numberPremium3 * 50 << endl;
+
+	cout << endl;
+	
+	cout << "Ticket price of General Admission Tickets = 25" << endl;
+	cout << "Number of General Admission tickets sold = ";
+	cin >> numberGenAd3; 
+	cout << "Total Sales of General Admission Tickets = " << numberGenAd3 * 25 << endl;
+
+	cout << endl;
+
+	cout << "Total Sales of Game 3 = " << (250 * numberBox3) + (100 * numberSideline3) + (50 * numberPremium3) + (25 * numberGenAd3) << endl;
+
+
+	float numberBox4;
+	float numberSideline4;
+	float numberPremium4;
+    float numberGenAd4;
+
+	cout << endl;
+
+	cout<<"GAME 4\n";
+
+	cout << endl;
+
+	cout << "Ticket price of Box = 250" << endl;
+	cout << "Number of Box tickets sold = ";
+	cin >> numberBox4; 
+	cout << "Total Sales of Box Tickets = " << numberBox4 * 250 << endl;
+
+	cout << endl;
+
+	cout << "Ticket price of Sideline = 100" << endl;
+	cout << "Number of Sideline tickets sold = ";
+	cin >> numberSideline4; 
+	cout << "Total Sales of Sideline Tickets = " << numberSideline4 * 100 << endl;
+
+	cout << endl;
+
+	cout << "Ticket price of Premium = 50" << endl;
+	cout << "Number of Premium tickets sold = ";
+	cin >> numberPremium4; 
+	cout << "Total Sales of Premium Tickets = " << numberPremium4 * 50 << endl;
+
+	cout << endl;
+	
+	cout << "Ticket price of General Admission Tickets = 25" << endl;
+	cout << "Number of General Admission tickets sold = ";
+	cin >> numberGenAd4; 
+	cout << "Total Sales of General Admission Tickets = " << numberGenAd4 * 25 << endl;
+
+	cout << endl;
+
+	cout << "Total Sales of Game 4 = " << (250 * numberBox4) + (100 * numberSideline4) + (50 * numberPremium4) + (25 * numberGenAd4) << endl;
+
+
+
+	_getch();
+
+
+}
