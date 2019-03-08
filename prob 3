@@ -25,8 +25,8 @@ int main()
     cin >> d2;
     cout  << "Input the interest per month: ";
     cin >> monthlyintrate;
-
-    cout<< "Input the Average Daily Balance: " << (netb * d1 - payment * d2) / d1 << endl;
+    
+    avedailybal = (netb * d1 - payment * d2) / d1;
     interest = avedailybal * monthlyintrate;
 
     cout <<endl<< "The interest is " << interest << endl;
